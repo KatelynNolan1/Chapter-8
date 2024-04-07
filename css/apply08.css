@@ -1,0 +1,56 @@
+		/*
+		Name -Katelyn Katelyn Nolan 
+    File Name - apply08.css
+    Date - 04/06/2024
+		*/
+		/* table styles */
+ table {
+   /* width */
+   width: 80%;
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-left: auto;
+   margin-right: auto;
+   /* or, use below's margin rule instead of above's 4 css rules */
+   /* margin: 0 auto; */
+   /* border */
+   border: 3px solid #71881b;
+ }
+
+ /* table elements css */
+ table, tr, th, td {
+   /* collapsed border */
+   border-collapse: collapse;
+   padding: 2%;
+ }
+
+ /* caption selector css */
+ caption {
+   /* text/font size */
+   font-size: 2em;
+   padding: 2%;
+   margin-top: 2%;
+ }
+
+ /* th, td selectors css */
+ th, td {
+   border: 1px solid #7188bb;
+ }
+
+ /* td tag selector css */
+ td {
+   /* center aligned text */
+   text-align: center;
+ }
+
+  /* tr odd rows tag selector css */
+  tr:nth-child(2n + 1) {
+    background-color: #d3e788;
+  }
+
+
+
+  /* --------- EXTRA CSS ------------- */
+  footer {
+    text-align: center;
+  }
